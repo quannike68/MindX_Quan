@@ -1,0 +1,40 @@
+.navBar .data {
+    display:inline-block;
+    padding: 17px;
+}
+
+.navBar .navData .mot {
+    border: none;
+    background-color: none;
+    margin-left: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.navBar .navData .hai {
+    background-color:rgb(42, 127, 217) ;
+    margin-left: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.tagName .infor button {
+    background-color: white;
+    color: rgb(42, 127, 217);
+    border-color: rgb(42, 127, 217) ;
+    border-radius: 10px;
+    
+}
+
+.container .tagName {
+    display: grid;
+    grid-template-columns:33% 33% 33% ;
+    grid-template-rows: 300px 300px ;
+    row-gap: 50px;
+}   
+
+
+

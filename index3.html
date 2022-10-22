@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ung dung Loop</title>
+</head>
+<body>
+<script type="text/javascript">
+
+	var A = prompt('Nhap gia tri A');
+    var B = prompt('Nhap gia tri B');
+
+	A = parseInt(A)
+    B = parseInt(B)
+
+	for(i=A;i<B;i++) {
+		for(j=2;j*j<=i;j++) {
+            if( i % j == 0){
+                break;
+            }
+            else if (j+1 >  Math.sqrt(i)) {
+                document.writeln(i)
+            }
+
+		}
+	}
+</script>
+</body>
+</html>

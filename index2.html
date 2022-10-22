@@ -6,11 +6,12 @@
 <body>
 <script type="text/javascript">
 
-	var N = prompt('Nhap gia tri N')
-
-    
+    do {
+	var N = prompt('Nhap gia tri N (1 <= N <=10 ')
+}
+    while (N <= 1 || N >= 10) {
 	N = parseInt(N)
-
+}
 	for(i=0;i<N;i++) {
 
 		for(j=0;j<=i;j++) {
@@ -19,6 +20,7 @@
 
 		document.writeln("<br/>")
 	}
+
 </script>
 </body>
-</html>
+</htm
